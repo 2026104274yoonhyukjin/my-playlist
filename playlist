@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="playlistcss.css">
+    <title>최애 앨범 소개</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            /* 테두리 두께를 크기에 포함시키는 마법의 속성 (나중에 배웁니다!) */
+            box-sizing: border-box;
+        }
+        
+        body {
+          padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="album-header">
+        <p class="team-name">4조</p>
+        <h1>EP.4-it's a mess</h1>
+        <h2> 지들만의 매력으로 가득 찬 플레이리스트</h2>
+    </header>
+
+    <h3>🎧 추천 플레이리스트</h3>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Track</th>
+                <th>Artist</th>
+                <th>SongName</th>
+                <th>Play Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>SID</td>
+                <td>嘘</td>
+                <td>3:25</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>Oasis</td>
+                <td>Supersonic</td>
+                <td>4:43</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>NMIXX</td>
+                <td>DASH</td>
+                <td>2:46</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>can't be blue</td>
+                <td>Black Tesla</td>
+                <td>2:14</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>성시경</td>
+                <td>너의 모든 순간</td>
+                <td>4:03</td>
+            </tr>
+
+        </tbody>
+    </table>
+    </section>
+
+    <br>
+    <h3>노래 정보</h3>
+
+    <fieldset>
+        <p>Track01. SID-嘘 </p>
+        <h4>🎵킬링 파트 가사</h4>
+        <p>最後の噓は 優しい噓でした ("마지막의 거짓말은 상냥한 거짓말이었습니다")</p>
+        <h4>✨ 입덕 포인트</h4>
+        <p>잔잔하면서도 서정적인 멜로디</p>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/5hyuqT3PwqSKtH1EUSST20?utm_source=generator" width="50%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </fieldset>
+
+    <fieldset>
+        <p>Track02. Oasis-Supersonic </p>
+        <h4>🎵킬링 파트 가사</h4>
+        <p>I need to be myself, I can't be no one else ("나 자신이 되어야겠어, 다른 사람이 될 순 없어")</p>
+        <h4>✨ 입덕 포인트</h4>
+        <p>짧지만 강렬한 기타 리프와 귀에 쏙 들어오는 멜로디</p>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/1ARsfVEoLWiJaikVJtvjDu?utm_source=generator" width="50%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </fieldset>
+
+    <fieldset>
+        <p>Track03. NMIXX-DASH </p>
+        <h4>🎵킬링 파트 가사</h4>
+        <p>"Dash, I wanna dash, I wanna run it, run it"</p>
+        <h4>✨ 입덕 포인트</h4>
+        <p>중독되는 훅과 각 멤버들의 매력적인 파트 </p>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/1mXIJLlpAEG3Vab5b21QIM?utm_source=generator" width="50%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </fieldset>
+
+    <fieldset>
+        <p>Track04. can't be blue-Black Tesla</p>
+        <h4>🎵킬링 파트 가사</h4>
+        <p>"Don’t lie my baby 사랑했었냐고 Why you keep asking 사랑은 했더라고"</p>
+        <h4>✨ 입덕 포인트</h4>
+        <p>허스키한 톤의 보컬과 귀를 꽉 채우는 밴드 사운드 </p>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/6iAfGJXEePmiot8dFiJ1eG?utm_source=generator" width="50%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </fieldset>
+    <fieldset>
+        <p>Track05. 성시경-너의 모든순간 </p>
+        <h4>🎵킬링 파트 가사</h4>
+        <p>"너의 모든 순간 그게 나였으면 좋겠다"</p>
+        <h4>✨ 입덕 포인트</h4>
+        <p>부드럽고 감성적인 보컬의 깔끔한 고음 </p>
+        <iframe data-testid="embed-iframe" style="border-radius:12px"
+            src="https://open.spotify.com/embed/track/6piGysTzX1hCj2l0mygEl9?utm_source=generator" width="50%"
+            height="152" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </fieldset>
+
+    <h3>아티스트들의 다른 곡 추천</h3>
+    <ul>
+        <li>SID-レイン</li>
+        <li>Oasis-I Can See a Liar</li>
+        <li>NMIXX-Blue Valentine</li>
+        <li>Can't be blue-Should Be You</li>
+        <li>성시경-거리에서</li>
+    </ul>
+
+    <iframe data-testid="embed-iframe" style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/6M7ZJXPOaD453ZYZbL8mFP?utm_source=generator" width="100%"
+        height="152" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</body>
+
+</html>
